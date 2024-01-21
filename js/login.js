@@ -88,7 +88,7 @@ function isEmpty(){
 
 function userLogin(){
     if(checkLogin() == true){
-        window.location.href="Welcome.html" 
+        window.location.href="index3.html" 
     }
     else{
         showMassege("You must sign in first ")
@@ -97,6 +97,6 @@ function userLogin(){
 }
     
 signIn.addEventListener('click',function(){
-    window.location.href="signup.html"
+    window.location.href="index2.html"
 })
 
